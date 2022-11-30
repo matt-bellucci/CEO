@@ -1,0 +1,1602 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/mbelluci/ontologies/2021/11/untitled-ontology-64"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/mbelluci/ontologies/2021/11/untitled-ontology-64">
+    <Prefix name="" IRI="http://www.semanticweb.org/mbelluci/ontologies/2021/11/untitled-ontology-64"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#testCase"/>
+        <AnonymousIndividual nodeID="_:genid2147483657"/>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#testCase"/>
+        <AnonymousIndividual nodeID="_:genid2147483658"/>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#testCase"/>
+        <AnonymousIndividual nodeID="_:genid2147483659"/>
+    </Annotation>
+    <Declaration>
+        <Class IRI="/Bassoon"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Bell"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Bowed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Brass"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/BrassMechanism"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/BrassMetal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/BrassMouthPiece"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/BrassPipes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Cello"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Clarinet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Contrabass"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/FrenchHorn"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Furniture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Guitar"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Harp"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Harpsichord"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Instruments"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Keyboard"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Keys"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Mechanism"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Mouthpiece"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Oboe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Pedals"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Pegs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Piano"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Pipes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Pistons"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Plucked"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Properties"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Reed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Saxophone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Serpent"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Shapes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Slide"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/String"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Strings"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/StringsMechanism"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Struck"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Texture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Trombone"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Trumpet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Tuba"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Utilities"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Viola"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Violin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ViolinFamily"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/ViolinShape"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Winds"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/WindsMechanism"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Wood"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/WoodWindsMechanism"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/WoodenChairs"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/WoodenTables"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="/Woodwinds"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/VisualProperty"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/hasApparentStrings"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/hasMechanism"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/hasMouthpiece"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/hasShape"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="/hasTexture"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/bell"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/brassMechanism"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/brassMetal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/brassMouthpiece"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/keyboard"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/keys"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/mouthpiece"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/pedals"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/pegs"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/pistons"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/reed"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/slide"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/strings"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/stringsMechanism"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/test"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/texture"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/thing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/violinshape"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/windsMechanism"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/wood"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="/woodwindsMechanism"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#axiom"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#testCase"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#type"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="/Bell"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="/bell"/>
+        </ObjectOneOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/Brass"/>
+        <ObjectIntersectionOf>
+            <Class IRI="/Winds"/>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="/hasMouthpiece"/>
+                <Class IRI="/BrassMouthPiece"/>
+            </ObjectAllValuesFrom>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="/hasMouthpiece"/>
+                <Class IRI="/BrassMouthPiece"/>
+            </ObjectExactCardinality>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/BrassMechanism"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="/brassMechanism"/>
+            <NamedIndividual IRI="/pistons"/>
+            <NamedIndividual IRI="/slide"/>
+        </ObjectOneOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/BrassMetal"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="/brassMetal"/>
+        </ObjectOneOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/Keyboard"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="/keyboard"/>
+        </ObjectOneOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/Keys"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="/keys"/>
+        </ObjectOneOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/Pedals"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="/pedals"/>
+        </ObjectOneOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/Pegs"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="/pegs"/>
+        </ObjectOneOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/Pistons"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="/pistons"/>
+        </ObjectOneOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/Slide"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="/slide"/>
+        </ObjectOneOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/String"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="/strings"/>
+        </ObjectOneOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/StringsMechanism"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="/pegs"/>
+            <NamedIndividual IRI="/strings"/>
+            <NamedIndividual IRI="/stringsMechanism"/>
+        </ObjectOneOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/Texture"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="/brassMetal"/>
+            <NamedIndividual IRI="/texture"/>
+            <NamedIndividual IRI="/wood"/>
+        </ObjectOneOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/ViolinFamily"/>
+        <ObjectIntersectionOf>
+            <Class IRI="/Bowed"/>
+            <ObjectComplementOf>
+                <ObjectSomeValuesFrom>
+                    <ObjectProperty IRI="/hasTexture"/>
+                    <Class IRI="/BrassMetal"/>
+                </ObjectSomeValuesFrom>
+            </ObjectComplementOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="/hasApparentStrings"/>
+                <Class IRI="/String"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="/hasMechanism"/>
+                <Class IRI="/Pegs"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="/hasMechanism"/>
+                <Class IRI="/String"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="/hasShape"/>
+                <Class IRI="/ViolinShape"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="/hasTexture"/>
+                <Class IRI="/Wood"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/ViolinShape"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="/violinshape"/>
+        </ObjectOneOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/Winds"/>
+        <ObjectIntersectionOf>
+            <Class IRI="/Instruments"/>
+            <ObjectExactCardinality cardinality="1">
+                <ObjectProperty IRI="/hasMouthpiece"/>
+                <Class IRI="/Mouthpiece"/>
+            </ObjectExactCardinality>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/WindsMechanism"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="/brassMechanism"/>
+            <NamedIndividual IRI="/keys"/>
+            <NamedIndividual IRI="/pistons"/>
+            <NamedIndividual IRI="/slide"/>
+            <NamedIndividual IRI="/windsMechanism"/>
+            <NamedIndividual IRI="/woodwindsMechanism"/>
+        </ObjectOneOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/Wood"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="/wood"/>
+        </ObjectOneOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="/WoodWindsMechanism"/>
+        <ObjectOneOf>
+            <NamedIndividual IRI="/woodwindsMechanism"/>
+        </ObjectOneOf>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="/Bassoon"/>
+        <Class IRI="/Woodwinds"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Bassoon"/>
+        <ObjectComplementOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="/hasTexture"/>
+                <Class IRI="/BrassMetal"/>
+            </ObjectSomeValuesFrom>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Bassoon"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/hasMechanism"/>
+            <Class IRI="/Keys"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Bassoon"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/hasMouthpiece"/>
+            <Class IRI="/Reed"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Bassoon"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/hasTexture"/>
+            <Class IRI="/Wood"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Bell"/>
+        <Class IRI="/Shapes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Bowed"/>
+        <Class IRI="/Strings"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Bowed"/>
+        <ObjectComplementOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="/hasMechanism"/>
+                <Class IRI="/Keyboard"/>
+            </ObjectSomeValuesFrom>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Brass"/>
+        <Class IRI="/Winds"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Brass"/>
+        <ObjectComplementOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="/hasMechanism"/>
+                <Class IRI="/Keyboard"/>
+            </ObjectSomeValuesFrom>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/BrassMechanism"/>
+        <Class IRI="/WindsMechanism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/BrassMetal"/>
+        <Class IRI="/Texture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/BrassMouthPiece"/>
+        <Class IRI="/Mouthpiece"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/BrassPipes"/>
+        <Class IRI="/Pipes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/BrassPipes"/>
+        <ObjectComplementOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="/hasShape"/>
+                <Class IRI="/Bell"/>
+            </ObjectSomeValuesFrom>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/BrassPipes"/>
+        <ObjectComplementOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="/hasTexture"/>
+                <Class IRI="/Wood"/>
+            </ObjectSomeValuesFrom>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/BrassPipes"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/hasTexture"/>
+            <Class IRI="/BrassMetal"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Cello"/>
+        <Class IRI="/ViolinFamily"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Clarinet"/>
+        <Class IRI="/Woodwinds"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Clarinet"/>
+        <ObjectComplementOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="/hasTexture"/>
+                <Class IRI="/BrassMetal"/>
+            </ObjectSomeValuesFrom>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Clarinet"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/hasMouthpiece"/>
+            <Class IRI="/Reed"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Clarinet"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/hasShape"/>
+            <Class IRI="/Bell"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Clarinet"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/hasTexture"/>
+            <Class IRI="/Wood"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Clarinet"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="/hasMechanism"/>
+            <Class IRI="/Keys"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Contrabass"/>
+        <Class IRI="/ViolinFamily"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/FrenchHorn"/>
+        <Class IRI="/Brass"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/FrenchHorn"/>
+        <ObjectComplementOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="/hasMechanism"/>
+                <Class IRI="/Slide"/>
+            </ObjectSomeValuesFrom>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/FrenchHorn"/>
+        <ObjectComplementOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="/hasTexture"/>
+                <Class IRI="/Wood"/>
+            </ObjectSomeValuesFrom>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/FrenchHorn"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/hasMechanism"/>
+            <Class IRI="/Pistons"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/FrenchHorn"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/hasShape"/>
+            <Class IRI="/Bell"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/FrenchHorn"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/hasTexture"/>
+            <Class IRI="/BrassMetal"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Furniture"/>
+        <ObjectComplementOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="/hasMechanism"/>
+                <Class IRI="/Mechanism"/>
+            </ObjectSomeValuesFrom>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Furniture"/>
+        <ObjectComplementOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="/hasMouthpiece"/>
+                <Class IRI="/Mouthpiece"/>
+            </ObjectSomeValuesFrom>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Guitar"/>
+        <Class IRI="/Plucked"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Guitar"/>
+        <ObjectComplementOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="/hasMechanism"/>
+                <Class IRI="/Keyboard"/>
+            </ObjectSomeValuesFrom>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Guitar"/>
+        <ObjectComplementOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="/hasTexture"/>
+                <Class IRI="/BrassMetal"/>
+            </ObjectSomeValuesFrom>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Guitar"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/hasApparentStrings"/>
+            <Class IRI="/String"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Guitar"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/hasMechanism"/>
+            <Class IRI="/Pegs"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Guitar"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/hasMechanism"/>
+            <Class IRI="/String"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Guitar"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/hasTexture"/>
+            <Class IRI="/Wood"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Harp"/>
+        <Class IRI="/Plucked"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Harp"/>
+        <ObjectComplementOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="/hasMechanism"/>
+                <Class IRI="/Keyboard"/>
+            </ObjectSomeValuesFrom>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Harp"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/hasApparentStrings"/>
+            <Class IRI="/String"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Harp"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/hasMechanism"/>
+            <Class IRI="/Pedals"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Harp"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/hasMechanism"/>
+            <Class IRI="/String"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Harpsichord"/>
+        <Class IRI="/Plucked"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Harpsichord"/>
+        <ObjectComplementOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="/hasMechanism"/>
+                <Class IRI="/Pedals"/>
+            </ObjectSomeValuesFrom>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Harpsichord"/>
+        <ObjectComplementOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="/hasTexture"/>
+                <Class IRI="/BrassMetal"/>
+            </ObjectSomeValuesFrom>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Harpsichord"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/hasMechanism"/>
+            <Class IRI="/Keyboard"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Harpsichord"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/hasTexture"/>
+            <Class IRI="/Wood"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Keyboard"/>
+        <Class IRI="/Mechanism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Keys"/>
+        <Class IRI="/WindsMechanism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Mechanism"/>
+        <Class IRI="/Properties"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Mouthpiece"/>
+        <Class IRI="/Properties"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Oboe"/>
+        <Class IRI="/Woodwinds"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Oboe"/>
+        <ObjectComplementOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="/hasTexture"/>
+                <Class IRI="/BrassMetal"/>
+            </ObjectSomeValuesFrom>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Oboe"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/hasMechanism"/>
+            <Class IRI="/Keys"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Oboe"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/hasMouthpiece"/>
+            <Class IRI="/Reed"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Oboe"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/hasShape"/>
+            <Class IRI="/Bell"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Oboe"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/hasTexture"/>
+            <Class IRI="/Wood"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Pedals"/>
+        <Class IRI="/Mechanism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Pegs"/>
+        <Class IRI="/StringsMechanism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Piano"/>
+        <Class IRI="/Struck"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Piano"/>
+        <ObjectComplementOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="/hasTexture"/>
+                <Class IRI="/BrassMetal"/>
+            </ObjectSomeValuesFrom>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Piano"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/hasMechanism"/>
+            <Class IRI="/Keyboard"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Piano"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/hasMechanism"/>
+            <Class IRI="/Pedals"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Piano"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/hasTexture"/>
+            <Class IRI="/Wood"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Pipes"/>
+        <Class IRI="/Utilities"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Pistons"/>
+        <Class IRI="/BrassMechanism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Plucked"/>
+        <Class IRI="/Strings"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Reed"/>
+        <Class IRI="/Mouthpiece"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Saxophone"/>
+        <Class IRI="/Woodwinds"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Saxophone"/>
+        <ObjectComplementOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="/hasTexture"/>
+                <Class IRI="/Wood"/>
+            </ObjectSomeValuesFrom>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Saxophone"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/hasMechanism"/>
+            <Class IRI="/Keys"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Saxophone"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/hasMouthpiece"/>
+            <Class IRI="/Reed"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Saxophone"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/hasShape"/>
+            <Class IRI="/Bell"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Saxophone"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/hasTexture"/>
+            <Class IRI="/BrassMetal"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Serpent"/>
+        <Class IRI="/Brass"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Serpent"/>
+        <ObjectComplementOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="/hasMechanism"/>
+                <Class IRI="/Pistons"/>
+            </ObjectSomeValuesFrom>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Serpent"/>
+        <ObjectComplementOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="/hasMechanism"/>
+                <Class IRI="/Slide"/>
+            </ObjectSomeValuesFrom>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Serpent"/>
+        <ObjectComplementOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="/hasTexture"/>
+                <Class IRI="/BrassMetal"/>
+            </ObjectSomeValuesFrom>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Serpent"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/hasMechanism"/>
+            <Class IRI="/Keys"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Serpent"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/hasTexture"/>
+            <Class IRI="/Wood"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Shapes"/>
+        <Class IRI="/Properties"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Slide"/>
+        <Class IRI="/BrassMechanism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/String"/>
+        <Class IRI="/StringsMechanism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strings"/>
+        <Class IRI="/Instruments"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strings"/>
+        <ObjectComplementOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="/hasMechanism"/>
+                <Class IRI="/WindsMechanism"/>
+            </ObjectSomeValuesFrom>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Strings"/>
+        <ObjectComplementOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="/hasShape"/>
+                <Class IRI="/Bell"/>
+            </ObjectSomeValuesFrom>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/StringsMechanism"/>
+        <Class IRI="/Mechanism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Struck"/>
+        <Class IRI="/Strings"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Texture"/>
+        <Class IRI="/Properties"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Trombone"/>
+        <Class IRI="/Brass"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Trombone"/>
+        <ObjectComplementOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="/hasMechanism"/>
+                <Class IRI="/Keys"/>
+            </ObjectSomeValuesFrom>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Trombone"/>
+        <ObjectComplementOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="/hasMechanism"/>
+                <Class IRI="/Pistons"/>
+            </ObjectSomeValuesFrom>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Trombone"/>
+        <ObjectComplementOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="/hasTexture"/>
+                <Class IRI="/Wood"/>
+            </ObjectSomeValuesFrom>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Trombone"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/hasMechanism"/>
+            <Class IRI="/Slide"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Trombone"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/hasShape"/>
+            <Class IRI="/Bell"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Trombone"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/hasTexture"/>
+            <Class IRI="/BrassMetal"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Trumpet"/>
+        <Class IRI="/Brass"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Trumpet"/>
+        <ObjectComplementOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="/hasMechanism"/>
+                <Class IRI="/Keys"/>
+            </ObjectSomeValuesFrom>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Trumpet"/>
+        <ObjectComplementOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="/hasTexture"/>
+                <Class IRI="/Wood"/>
+            </ObjectSomeValuesFrom>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Trumpet"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/hasMechanism"/>
+            <Class IRI="/Pistons"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Trumpet"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/hasShape"/>
+            <Class IRI="/Bell"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Trumpet"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/hasTexture"/>
+            <Class IRI="/BrassMetal"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Tuba"/>
+        <Class IRI="/Brass"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Tuba"/>
+        <ObjectComplementOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="/hasMechanism"/>
+                <Class IRI="/Keys"/>
+            </ObjectSomeValuesFrom>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Tuba"/>
+        <ObjectComplementOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="/hasMechanism"/>
+                <Class IRI="/Slide"/>
+            </ObjectSomeValuesFrom>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Tuba"/>
+        <ObjectComplementOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="/hasTexture"/>
+                <Class IRI="/Wood"/>
+            </ObjectSomeValuesFrom>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Tuba"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/hasMechanism"/>
+            <Class IRI="/Pistons"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Tuba"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/hasShape"/>
+            <Class IRI="/Bell"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Tuba"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/hasTexture"/>
+            <Class IRI="/BrassMetal"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Utilities"/>
+        <ObjectComplementOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="/hasMechanism"/>
+                <Class IRI="/Mechanism"/>
+            </ObjectSomeValuesFrom>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Utilities"/>
+        <ObjectComplementOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="/hasMouthpiece"/>
+                <Class IRI="/Mouthpiece"/>
+            </ObjectSomeValuesFrom>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Viola"/>
+        <Class IRI="/ViolinFamily"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Violin"/>
+        <Class IRI="/ViolinFamily"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ViolinFamily"/>
+        <Class IRI="/Bowed"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/ViolinShape"/>
+        <Class IRI="/Shapes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Winds"/>
+        <Class IRI="/Instruments"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Winds"/>
+        <ObjectComplementOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="/hasMechanism"/>
+                <Class IRI="/Pedals"/>
+            </ObjectSomeValuesFrom>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Winds"/>
+        <ObjectComplementOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="/hasMechanism"/>
+                <Class IRI="/StringsMechanism"/>
+            </ObjectSomeValuesFrom>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/WindsMechanism"/>
+        <Class IRI="/Mechanism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Wood"/>
+        <Class IRI="/Texture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/WoodWindsMechanism"/>
+        <Class IRI="/WindsMechanism"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/WoodenChairs"/>
+        <Class IRI="/Furniture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/WoodenChairs"/>
+        <ObjectComplementOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="/hasTexture"/>
+                <Class IRI="/BrassMetal"/>
+            </ObjectSomeValuesFrom>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/WoodenChairs"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/hasTexture"/>
+            <Class IRI="/Wood"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/WoodenTables"/>
+        <Class IRI="/Furniture"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/WoodenTables"/>
+        <ObjectComplementOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="/hasTexture"/>
+                <Class IRI="/BrassMetal"/>
+            </ObjectSomeValuesFrom>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/WoodenTables"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="/hasTexture"/>
+            <Class IRI="/Wood"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Woodwinds"/>
+        <Class IRI="/Winds"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Woodwinds"/>
+        <ObjectComplementOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="/hasMechanism"/>
+                <Class IRI="/BrassMechanism"/>
+            </ObjectSomeValuesFrom>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Woodwinds"/>
+        <ObjectComplementOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="/hasMechanism"/>
+                <Class IRI="/Keyboard"/>
+            </ObjectSomeValuesFrom>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="/Woodwinds"/>
+        <ObjectComplementOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="/hasMouthpiece"/>
+                <Class IRI="/BrassMouthPiece"/>
+            </ObjectSomeValuesFrom>
+        </ObjectComplementOf>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="/Bassoon"/>
+        <Class IRI="/Clarinet"/>
+        <Class IRI="/Oboe"/>
+        <Class IRI="/Saxophone"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Bowed"/>
+        <Class IRI="/Plucked"/>
+        <Class IRI="/Struck"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Brass"/>
+        <Class IRI="/Woodwinds"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/BrassMetal"/>
+        <Class IRI="/Wood"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/BrassMouthPiece"/>
+        <Class IRI="/Reed"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Cello"/>
+        <Class IRI="/Contrabass"/>
+        <Class IRI="/Viola"/>
+        <Class IRI="/Violin"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Clarinet"/>
+        <Class IRI="/Saxophone"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/FrenchHorn"/>
+        <Class IRI="/Serpent"/>
+        <Class IRI="/Trombone"/>
+        <Class IRI="/Trumpet"/>
+        <Class IRI="/Tuba"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Furniture"/>
+        <Class IRI="/Instruments"/>
+        <Class IRI="/Properties"/>
+        <Class IRI="/Utilities"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Guitar"/>
+        <Class IRI="/Harpsichord"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Keys"/>
+        <Class IRI="/Slide"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/Strings"/>
+        <Class IRI="/Winds"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="/WoodenChairs"/>
+        <Class IRI="/WoodenTables"/>
+    </DisjointClasses>
+    <DisjointUnion>
+        <Class IRI="/Winds"/>
+        <Class IRI="/Brass"/>
+        <Class IRI="/Woodwinds"/>
+    </DisjointUnion>
+    <ClassAssertion>
+        <Class IRI="/Bell"/>
+        <NamedIndividual IRI="/bell"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/BrassMechanism"/>
+        <NamedIndividual IRI="/brassMechanism"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/BrassMetal"/>
+        <NamedIndividual IRI="/brassMetal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/BrassMouthPiece"/>
+        <NamedIndividual IRI="/brassMouthpiece"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Keyboard"/>
+        <NamedIndividual IRI="/keyboard"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Keys"/>
+        <NamedIndividual IRI="/keys"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Mouthpiece"/>
+        <NamedIndividual IRI="/mouthpiece"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Pedals"/>
+        <NamedIndividual IRI="/pedals"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Pegs"/>
+        <NamedIndividual IRI="/pegs"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Pistons"/>
+        <NamedIndividual IRI="/pistons"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Reed"/>
+        <NamedIndividual IRI="/reed"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Slide"/>
+        <NamedIndividual IRI="/slide"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/String"/>
+        <NamedIndividual IRI="/strings"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/StringsMechanism"/>
+        <NamedIndividual IRI="/stringsMechanism"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Texture"/>
+        <NamedIndividual IRI="/texture"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class abbreviatedIRI="owl:Thing"/>
+        <NamedIndividual IRI="/thing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/ViolinShape"/>
+        <NamedIndividual IRI="/violinshape"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/WindsMechanism"/>
+        <NamedIndividual IRI="/windsMechanism"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/Wood"/>
+        <NamedIndividual IRI="/wood"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="/WoodWindsMechanism"/>
+        <NamedIndividual IRI="/woodwindsMechanism"/>
+    </ClassAssertion>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="/bell"/>
+        <NamedIndividual IRI="/brassMechanism"/>
+        <NamedIndividual IRI="/brassMetal"/>
+        <NamedIndividual IRI="/brassMouthpiece"/>
+        <NamedIndividual IRI="/keyboard"/>
+        <NamedIndividual IRI="/keys"/>
+        <NamedIndividual IRI="/mouthpiece"/>
+        <NamedIndividual IRI="/pedals"/>
+        <NamedIndividual IRI="/pegs"/>
+        <NamedIndividual IRI="/pistons"/>
+        <NamedIndividual IRI="/reed"/>
+        <NamedIndividual IRI="/slide"/>
+        <NamedIndividual IRI="/strings"/>
+        <NamedIndividual IRI="/stringsMechanism"/>
+        <NamedIndividual IRI="/test"/>
+        <NamedIndividual IRI="/texture"/>
+        <NamedIndividual IRI="/thing"/>
+        <NamedIndividual IRI="/violinshape"/>
+        <NamedIndividual IRI="/windsMechanism"/>
+        <NamedIndividual IRI="/wood"/>
+        <NamedIndividual IRI="/woodwindsMechanism"/>
+    </DifferentIndividuals>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasMechanism"/>
+        <NamedIndividual IRI="/test"/>
+        <NamedIndividual IRI="/keyboard"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasMechanism"/>
+        <NamedIndividual IRI="/test"/>
+        <NamedIndividual IRI="/pedals"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasTexture"/>
+        <NamedIndividual IRI="/test"/>
+        <NamedIndividual IRI="/brassMetal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="/hasTexture"/>
+        <NamedIndividual IRI="/test"/>
+        <NamedIndividual IRI="/wood"/>
+    </ObjectPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/hasApparentStrings"/>
+        <ObjectProperty IRI="/VisualProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/hasMechanism"/>
+        <ObjectProperty IRI="/VisualProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/hasMouthpiece"/>
+        <ObjectProperty IRI="/VisualProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/hasShape"/>
+        <ObjectProperty IRI="/VisualProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="/hasTexture"/>
+        <ObjectProperty IRI="/VisualProperty"/>
+    </SubObjectPropertyOf>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="/hasMouthpiece"/>
+    </FunctionalObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/hasApparentStrings"/>
+        <Class IRI="/Strings"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/hasMechanism"/>
+        <Class IRI="/Instruments"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="/hasMouthpiece"/>
+        <Class IRI="/Winds"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/hasApparentStrings"/>
+        <Class IRI="/String"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/hasMechanism"/>
+        <Class IRI="/Mechanism"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/hasMouthpiece"/>
+        <Class IRI="/Mouthpiece"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/hasShape"/>
+        <Class IRI="/Shapes"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="/hasTexture"/>
+        <Class IRI="/Texture"/>
+    </ObjectPropertyRange>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="/hasApparentStrings"/>
+        <ObjectProperty IRI="/hasMouthpiece"/>
+    </DisjointObjectProperties>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#axiom"/>
+        <AnonymousIndividual nodeID="_:genid2147483648"/>
+        <Literal>Reed EquivalentTo {reed}</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#type"/>
+        <AnonymousIndividual nodeID="_:genid2147483648"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#axiom"/>
+        <AnonymousIndividual nodeID="_:genid2147483649"/>
+        <Literal>test Type Saxophone</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#type"/>
+        <AnonymousIndividual nodeID="_:genid2147483649"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#axiom"/>
+        <AnonymousIndividual nodeID="_:genid2147483650"/>
+        <Literal>test hasMouthpiece mouthpiece</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#type"/>
+        <AnonymousIndividual nodeID="_:genid2147483650"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </AnnotationAssertion>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#axiom"/>
+        <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#testCase"/>
+    </SubAnnotationPropertyOf>
+    <SubAnnotationPropertyOf>
+        <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#type"/>
+        <AnnotationProperty IRI="http://ainf.aau.at/ontodebug#testCase"/>
+    </SubAnnotationPropertyOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
