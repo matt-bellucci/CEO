@@ -7,6 +7,8 @@ Package requirements are provided in `requirements.txt` and `Pipfile` for pipenv
 To generate a counterfactual, execute the `main.py` script.
 The generation may take a few minutes.
 
+A survey was conducted to test this method on an ontolgoy of musical instruments, the details are given in the directory `Survey`.
+
 ## How to enter your own counterfactual 
 The first case of the survey (see directory `Survey`) is the default counterfactual example.
 Here is a step-by-step guide to modify the counterfactual.
