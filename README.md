@@ -9,7 +9,7 @@ The generation may take a few minutes.
 
 ## How to enter your own counterfactual 
 The first case of the survey (see directory `Survey`) is the default counterfactual example.
-Here is a step by step guide to modify the counterfactual.
+Here is a step-by-step guide to modify the counterfactual.
 
 1. Open the ontology in an ontology editor.
 2. Create or edit the `test` individual, without specifying its class, only its Object property assertions.  
